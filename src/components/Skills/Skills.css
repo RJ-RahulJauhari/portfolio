@@ -1,0 +1,26 @@
+.skills {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    padding-block: 50px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.skills-heading {
+    text-align: center;
+}
+
+.skills-title {
+    font-size: 45px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

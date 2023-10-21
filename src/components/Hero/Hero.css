@@ -1,0 +1,60 @@
+.hero-container {
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.hero-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    height: 100%;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    width: 80%;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    border: solid white 2px;
+    border-radius: 20px;
+}
+
+button:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: normal;
+    width: 90%;
+}
+
+.main-text {
+    font-size: 75px;
+    align-items: center;
+}
+
+.sub-text {
+    font-size: 45px;
+    text-align: center;
+}

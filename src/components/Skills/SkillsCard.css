@@ -1,0 +1,35 @@
+.skill-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--blue-color) 3px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.skill-card:hover {
+    transition: 0.5s;
+    background-color: var(--blue-color);
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.skill-box {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 3px;
+    min-width: 40px;
+    padding-inline: 30px;
+    text-align: center;
+    border: solid white 2px;
+    border-radius: 10px;
+}

@@ -1,0 +1,54 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    z-index: 10;
+    display: flex;
+}
+
+.logo-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.tab-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: inherit;
+    width: inherit;
+}
+
+.tab-item a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+.tab-item:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.social-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
